@@ -1,0 +1,211 @@
+@import "../../styles/core/core-variables";
+
+.customButton {
+  &.ui.button {
+    border-radius: 0;
+    min-width: 90px;
+    font-weight: normal;
+    font-size: 1rem;
+    margin-right: 0;
+
+
+    &.round {
+      border-radius: 10px;
+    }
+
+    &.icon-only {
+      min-width: 0px;
+      padding: 0.25rem;
+    }
+
+    &.no-padding {
+      padding: 0;
+      min-width: 0;
+    }
+
+    &.disabled {
+      cursor: not-allowed;
+    }
+
+    &.circular {
+      border-radius: 50%;
+    }
+
+    &.primary-button {
+      background-color: $secondary-color;
+      color: $primary-color;
+      border: 1px solid $secondary-color;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+      &.outline {
+        background-color: transparent;
+        color: $secondary-color;
+        box-shadow: none;
+      }
+
+      &.no-outline {
+        border: none;
+        box-shadow: none;
+      }
+
+      &.no-button-background {
+        background-color: transparent;
+        color: $blue-shade-1;
+
+        &:hover {
+         text-decoration: none;
+          color: $secondary-color;
+         
+        }
+      }
+    }
+
+    &.gradient-button {
+      background-color: $gradient-color;
+      color: $primary-color;
+      border: 1px solid $gradient-color;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+      &.outline {
+        background-color: transparent;
+        color: $secondary-color;
+        box-shadow: none;
+      }
+
+      &.no-outline {
+        border: none;
+        box-shadow: none;
+      }
+
+      &.no-button-background {
+        background-color: transparent;
+        color: $secondary-color;
+
+        &:hover {
+         text-decoration: none;
+          color: $primary-color;
+         
+        }
+      }
+    }
+
+    &.secondary-button {
+      background-color: $grey-color;
+      color: $primary-color;
+      border: 1px solid $grey-color;
+
+      &.outline {
+        background-color: transparent;
+        color: $secondary-color;
+        box-shadow: none;
+      }
+
+      &.no-outline {
+        border: none;
+        box-shadow: none;
+      }
+
+      &.no-button-background {
+        background-color: transparent;
+        color: $secondary-color;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    &.grey-button {
+      background-color: $grey-color;
+      color: $primary-color;
+      border: 1px solid $grey-color;
+
+      &.outline {
+        background-color: transparent;
+        color: $secondary-color;
+        box-shadow: none;
+      }
+
+      &.no-outline {
+        border: none;
+        box-shadow: none;
+      }
+
+      &.no-button-background {
+        background-color: transparent;
+        color: $primary-color;
+
+        &:hover {
+          text-decoration:none;
+        }
+      }
+    }
+  }
+}
+
+.ui.popup.button-popover {
+  color: $secondary-color;
+  font-size: 1rem;
+  padding: $padding-1;
+}
+
+
+.ui.button {
+  &.width-20p {
+    min-width: 20px !important;
+  }
+
+  &.padding {
+    &-1 {
+      padding: $padding-1;
+    }
+
+    &-2 {
+      padding: $padding-2;
+    }
+
+    &-3 {
+      padding: $padding-3;
+    }
+
+    &-4 {
+      padding: $padding-4;
+    }
+  }
+
+  &.margin {
+    &-l-1 {
+      margin-left: $margin-1;
+    }
+
+    &-l-2 {
+      margin-left: $margin-2;
+    }
+
+    &-l-3 {
+      margin-left: $margin-3;
+    }
+
+    &-l-4 {
+      margin-left: $margin-4;
+    }
+
+    &-r-1 {
+      margin-right: $margin-1;
+    }
+
+    &-r-2 {
+      margin-right: $margin-2;
+    }
+
+    &-r-3 {
+      margin-right: $margin-3;
+    }
+
+    &-r-4 {
+      margin-right: $margin-4;
+    }
+  }
+}

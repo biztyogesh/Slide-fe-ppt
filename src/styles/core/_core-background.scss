@@ -1,0 +1,37 @@
+.background {
+  &-primary-color {
+    background-color: $primary-color;
+  }
+
+  &-transparent {
+    background-color: transparent;
+  }
+
+  &-secondary-color {
+    background-color: $secondary-color;
+  }
+
+  &-default-color {
+    background-color: $default-color;
+  }
+
+  &-grey-color {
+    background-color: $grey-color;
+  }
+
+  &-grey-shade-1 {
+    background-color: $grey-shade-1;
+  }
+
+  &-white-shade-1 {
+    background-color: $white-shade-1;
+  }
+
+  &-blue-shade {
+    background-color: $blue-shade;
+  }
+
+  &-blue-shade-1 {
+    background-color: $blue-shade-1;
+  }
+}

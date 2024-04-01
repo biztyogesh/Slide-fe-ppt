@@ -1,0 +1,21 @@
+.loading-container {
+    display: flex;
+    align-items: center;
+
+    &.inverted {
+        background-color: #e2e2e266;
+    }
+    &.global {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2000;
+        background-color: rgba(0,0,0,0.2);
+
+    }
+  
+
+}
+.ui.inline.loader {
+    top:2rem ; 
+}

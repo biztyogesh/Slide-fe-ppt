@@ -1,0 +1,67 @@
+.text {
+    // align
+    &-align-left {
+      text-align: left;
+    }
+  
+    &-align-center {
+      text-align: center;
+    }
+  
+    &-align-right {
+      text-align: right;
+    }
+
+    // font-weight
+
+    &-bold {
+      font-weight: bold;
+    }
+
+    &-light {
+      font-weight: 400;
+    }
+    // font-color
+    &-primary-color {
+      color: $primary-color;
+    }
+
+    &-secondary-color {
+      color: $secondary-color;
+    }
+
+    &-default-color {
+      color: $default-color;
+    }
+    &-danger-color {
+      color: $danger-color;
+    }
+    &-green-color {
+      color: $green-1-color;
+    }
+
+    &-blue-color {
+      color: $blue-shade;
+    }
+
+    // misc
+    &-underline {
+      text-decoration: underline;
+    }
+
+    &-uppercase {
+      text-transform: uppercase ;
+    }
+
+    &-word-break {
+      word-break: break-all;
+    }
+
+    &-inline {
+      white-space: nowrap;
+    }
+
+    &-italic {
+      font-style: italic;
+    }
+  }

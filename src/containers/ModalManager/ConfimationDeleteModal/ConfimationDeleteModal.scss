@@ -1,0 +1,16 @@
+@import "../../../styles/core/core-variables";
+
+.ui.modal.delete-modal {
+  .content {
+    padding-bottom: $padding-0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .actions {
+    text-align: center;
+  }
+}

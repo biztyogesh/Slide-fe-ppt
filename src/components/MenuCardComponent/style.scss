@@ -1,0 +1,75 @@
+.blur-card {
+  background-color: #4d488c;
+  margin: 1rem;
+  min-width: 15rem;
+  max-height: 10rem;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  border-radius: 1.5rem;
+  cursor: not-allowed;
+
+  .card-title {
+    font-weight: bolder;
+    color: white;
+    font-size: 14px;
+  }
+
+  .card-text {
+    font-size: 12px;
+    color: white;
+  }
+
+  .icon {
+    display: flex;
+    color: white;
+    justify-content: center;
+  }
+}
+
+.card {
+  background-color: #4d488c;
+  margin: 1rem;
+
+  min-width: 15rem;
+  max-height: 10rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #312d59;
+  }
+
+  .card-title {
+    display: flex;
+    font-weight: bolder;
+    color: white;
+    font-size: 14px;
+  }
+
+  .card-text {
+    display: flex;
+    font-size: 12px;
+    color: white;
+  }
+
+  .icon {
+    display: flex;
+    color: white;
+    justify-content: center;
+  }
+}
+
+// For small screens
+@media screen and (max-width: 1280px) {
+  .blur-card {
+    margin: 0.5rem;
+    min-width: 15rem;
+    max-height: 10rem;
+  }
+
+  .card {
+    margin: 0.5rem;
+    min-width: 15rem;
+    max-height: 10rem;
+  }
+}

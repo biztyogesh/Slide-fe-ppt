@@ -1,0 +1,73 @@
+@import "../../styles/core/core-variables";
+
+.custom-table {
+    height: calc(100% - 90px);
+
+}
+
+.custom-pagination-container {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custom-table-container {
+    overflow: auto;
+    height: calc(100% - 100px);
+    table {
+        width: 100%;
+        height: 100%;
+        border-collapse: collapse;
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+        thead {
+            position: sticky;
+            top: 0;
+            left: 0;
+        }
+
+        thead tr {
+            background: linear-gradient(64.5deg, rgba(245, 116, 185, 1) 14.7%, rgba(89, 97, 223, 1) 88.7%);
+            color: #ffffff;
+            text-align: left;
+        }
+
+        tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+
+        tbody tr:last-of-type {
+            border-bottom: 4px solid $blue-shade-1;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        th,
+        td {
+            padding: 10px 12px;
+        }
+
+        tbody td:nth-child(2) {
+            word-wrap: break-word;
+        }
+    }
+}
+
+
+.ui.pagination.menu {
+    margin: auto;
+}
+
+.ui.pagination.menu a.item {
+    font-size: 14px;
+    margin: 2px;
+}
+
+.ui.pagination.menu a.active.item {
+    background-color: $secondary-color;
+    color: #fff;
+}

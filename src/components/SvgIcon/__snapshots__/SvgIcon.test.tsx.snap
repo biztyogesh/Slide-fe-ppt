@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SvgIcon component should render correctly 1`] = `
+<div
+  className="custom-svg-icon undefined"
+>
+  <Loadable />
+</div>
+`;

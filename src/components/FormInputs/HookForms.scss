@@ -1,0 +1,55 @@
+@import "../../styles/core/core-variables";
+
+.custom-input {
+
+  input,
+  textarea,
+  select {
+    border: 1px solid $secondary-color;
+    border-radius: 5px;
+    margin: 4px 0 15px;
+    font-family: $primary-font;
+  }
+
+  input {
+    height: 38px;
+    position: relative;
+  }
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-position: right;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 100%;
+}
+
+  input[type='checkbox'] {
+    margin: 0;
+  }
+
+  textarea {
+    // height: 60px;
+  }
+
+  select {
+    height: 35px;
+  }
+  
+}
+.tags {
+  border-radius: 20px;
+  height: 20px;
+
+  &-container {
+    overflow-y: auto;
+    border: 1px solid $secondary-color;
+    border-radius: 5px;
+  }
+
+  span {
+    outline: none;
+  }
+}

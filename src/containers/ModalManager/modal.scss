@@ -1,0 +1,33 @@
+@import "../../styles/core/core-variables";
+
+.ui.modals.dimmer {
+  background-color: rgba(17, 17, 17, 0.41);
+}
+
+.ui.modal {
+  background-color: $white-color;
+
+  .header {
+    border-bottom: 1px solid $grey-color;
+    padding: $padding-6;
+    &:not(.ui) {
+      font-weight: normal;
+    }
+  }
+  .content {
+    padding: $padding-6;
+    &.nopadding {
+      padding: $padding-0;
+    }
+
+    &.background-grey-shade-7 {
+      background-color: $grey-color;
+    }
+  }
+
+  .actions {
+    border-top: 1px solid #00000020;
+    background-color: transparent;
+    padding: $padding-6;
+  }
+}

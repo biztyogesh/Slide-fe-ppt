@@ -1,0 +1,13 @@
+.browseFile-container {
+  border-radius: 5px;
+  border: 2px #c3c3c3 solid;
+}
+
+.dragDrop-container {
+  border-radius: 5px;
+  border: 2px #c3c3c3 dashed;
+}
+
+.dragging {
+  border: 2px dashed #7177f1; /* Change border color to indicate dragging */
+}

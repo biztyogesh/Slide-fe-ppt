@@ -1,0 +1,35 @@
+.border {
+  &-none {
+    border: none;
+  }
+
+  &-1 {
+    border: 1px solid;
+  }
+  
+  &-top {
+    border-top: 1px solid;
+  }
+  &-bottom {
+    border-bottom: 1px solid;
+  }
+  &-left {
+    border-left: 1px solid;
+  }
+  &-right {
+    border-right: 1px solid;
+  }
+
+  //Color
+  &-primary-color {
+    border-color: $primary-color;
+  }
+
+  &-secondary-color {
+    border-color: $secondary-color;
+  }
+
+  &-default-color {
+    border-color: $default-color;
+  }
+}
